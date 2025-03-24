@@ -4,15 +4,15 @@
 
 - Nos itens nós iremos definir propriedades mais específicas como: a posição de um item, tamanho do item, alinhamento do item, e o comportamento do item
 
-## Propriedades | Medidas | ETC
+## Propriedades | Medidas
 
-- `fr` -- vale 33%;
-- `minmax(vlm, vlmx)`
-- `repeat(x, 200px)` -- vai repetir a col x vezes sendo que cada col vai ter 200px
-- `gap: 20px;` -- Dá um espaço entre os el itens e também existe o column-gap e row-gap
+- `fr`: vale 33%;
+- `minmax(vlm, vlmx)`: Vai definir um tamanho mínimo e máximo para a col ou a lin
+- `repeat(x, 200px)`: vai repetir a col x vezes sendo que cada col vai ter 200px
+- `gap`: Dá um espaço entre os el itens e também existe o column-gap e row-gap
 
-- `grid-template-columns: 100px 220px 100px 50px;` -- define a largura de cada col
-- `grid-template-rows: 100px 220px 100px 50px;` -- define a altura de cada lin
+- `grid-template-columns`: Define a largura de cada col
+- `grid-template-rows`: Define a altura de cada lin
 
 1. `justify-content`: Alinha o conteúdo principal de um contêiner, como uma grid ou um flexbox, horizontalmente, caso haja espaço extra. Valores comuns incluem start, end, center, space-between, space-around e space-evenly.
 
